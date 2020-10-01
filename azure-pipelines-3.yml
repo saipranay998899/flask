@@ -6,11 +6,8 @@
 trigger:
 - master
 
-pool: 
-Name: 'CIS-BFA'
-demands: SpecialSoftware
-
-  vmImage: 'ubuntu-latest'
+ pool: CIS-BFA 
+vmImage: 'ubuntu-latest'
 strategy:
   matrix:
     Python27:
