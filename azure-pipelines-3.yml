@@ -6,11 +6,12 @@
 trigger:
 - master
 
- pool: 'CIS-BFA' 
-   vmImage: 'ubuntu-latest'
+pool: 
+    vmImage: 'ubuntu-latest'
+    name: 'CIS-BFA'
 strategy:
   matrix:
-    Python27:
+    Python27: 
       python.version: '2.7'
     Python35:
       python.version: '3.5'
