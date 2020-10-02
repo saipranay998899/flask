@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool: 'CIS-BFA'
-vmImage: 'ubuntu-latest'
+
 strategy:
   matrix:
     Python27:
