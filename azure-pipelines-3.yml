@@ -4,7 +4,7 @@ trigger:
 pool: 'CIS-BFA'
 
 steps:
-- script: echo Hello, world!
+- script: python -V
   displayName: 'Run a one-line script'
 
 - script: |
