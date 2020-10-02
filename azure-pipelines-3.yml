@@ -6,7 +6,7 @@
 trigger:
 - master
 
- pool: CIS-BFA 
+ pool: 'CIS-BFA' 
    vmImage: 'ubuntu-latest'
 strategy:
   matrix:
